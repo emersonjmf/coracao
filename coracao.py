@@ -1,15 +1,15 @@
 import streamlit as st
 
-st.set_page_config(page_title="❤️ Meu Coração para Você ❤️", layout="centered")
+st.set_page_config(page_title="❤️ Pra Você, Meu Amor ❤️", layout="centered")
 
-# Título principal
-st.title("❤️ Para o Amor da Minha Vida ❤️")
+# Título
+st.title("🌹 Para a mulher que ilumina meus dias 🌹")
 
-# Coração gigante feito com emoji
+# Coração gigante com estilo
 st.markdown(
     """
-    <div style="font-size:150px; text-align:center; line-height:1;">
-        ❤️
+    <div style="font-size:140px; text-align:center; line-height:1;">
+        💖
     </div>
     """,
     unsafe_allow_html=True
@@ -17,13 +17,22 @@ st.markdown(
 
 # Mensagem carinhosa
 st.write("""
-Desde que você entrou na minha vida,  
-meu coração só sabe bater por você.  
+Amor da minha vida,  
 
-Te amo demais! 💖  
+Desde que te conheci, tudo ganhou mais cor,  
+o tempo passou a ter mais sentido,  
+e meu coração encontrou o seu lugar.  
+
+Você é o meu porto seguro,  
+minha paz em dias difíceis,  
+minha risada favorita,  
+meu amor eterno. 💘
+
+Obrigado por existir. 🌟  
 """)
 
-# Um botão para mostrar uma surpresa
-if st.button('Clique aqui para uma surpresa'):
+# Botão com surpresa
+if st.button("Clique aqui se você também me ama ❤️"):
     st.balloons()
-    st.success("Você é incrível! Te amo demais! 💘")
+    st.success("Sabia que você ia clicar! Eu te amo infinitamente 💌")
+    
